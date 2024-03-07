@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="usuarios.css">
+    <title>Sistema de Biblioteca - Gestión de Usuarios</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Gestión de Usuarios</h2>
+        <form id="usuarios-form">
+            <label for="nombre-usuario">Nombre del Usuario:</label>
+            <input type="text" id="nombre-usuario" name="nombre-usuario" required>
+
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+
+            <label for="no-carnet">Número de Carnet:</label>
+            <input type="text" id="no-carnet" name="no-carnet" required>
+
+            <label for="tipo-persona">Tipo de Persona:</label>
+            <select id="tipo-persona" name="tipo-persona" required>
+                <option value="fisica">Física</option>
+                <option value="juridica">Jurídica</option>
+            </select>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Agregar Usuario</button>
+        </form>
+    </div>
+</body>
+</html>

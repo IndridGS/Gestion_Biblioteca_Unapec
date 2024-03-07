@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="consultas.css">
+    <title>Sistema de Biblioteca - Consultas Específicas</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Consultas Específicas</h2>
+        <form id="consultas-form">
+            <label for="tipo-consulta">Tipo de Consulta:</label>
+            <select id="tipo-consulta" name="tipo-consulta" required>
+                <option value="prestamos-usuario">Préstamos por Usuario</option>
+                <option value="historial-empleado">Historial de Préstamos por Empleado</option>
+                <!-- Agrega más opciones según sea necesario -->
+            </select>
+
+            <label for="criterios">Criterios de Consulta:</label>
+            <input type="text" id="criterios" name="criterios" required>
+
+            <button type="submit">Realizar Consulta</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="adm_conf.css">
+    <title>Sistema de Biblioteca - Configuración y Administración del Sistema</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Configuración y Administración del Sistema</h2>
+        <form id="configuracion-form">
+            <label for="mantenimiento">Modo Mantenimiento:</label>
+            <select id="mantenimiento" name="mantenimiento" required>
+                <option value="activado">Activado</option>
+                <option value="desactivado">Desactivado</option>
+            </select>
+
+            <label for="respaldo">Realizar Respaldo:</label>
+            <button type="button" id="respaldo-btn">Realizar Respaldo</button>
+
+            <label for="restaurar">Restaurar desde Respaldo:</label>
+            <button type="button" id="restaurar-btn">Restaurar desde Respaldo</button>
+        </form>
+    </div>
+</body>
+</html>

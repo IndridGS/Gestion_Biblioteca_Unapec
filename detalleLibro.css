@@ -1,0 +1,23 @@
+/* Estilos adicionales para la gestión de detalles del libro */
+#detalles-libro-container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#detalles-libro-container h3 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#detalles-libro-container p {
+    margin: 5px 0;
+}
+
+#detalles-libro-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#detalles-libro-container ul li {
+    margin: 5px 0;
+}

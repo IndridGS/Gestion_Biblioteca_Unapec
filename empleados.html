@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="empleados.css">
+    <title>Sistema de Biblioteca - Gestión de Empleados</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Gestión de Empleados</h2>
+        <form id="empleados-form">
+            <label for="nombre-empleado">Nombre del Empleado:</label>
+            <input type="text" id="nombre-empleado" name="nombre-empleado" required>
+
+            <label for="cedula">Cédula:</label>
+            <input type="text" id="cedula" name="cedula" required>
+
+            <label for="tanda-labor">Tanda Labor:</label>
+            <select id="tanda-labor" name="tanda-labor" required>
+                <option value="matutina">Matutina</option>
+                <option value="vespertina">Vespertina</option>
+                <!-- Agrega más opciones según sea necesario -->
+            </select>
+
+            <label for="porcentaje-comision">Porcentaje de Comisión:</label>
+            <input type="text" id="porcentaje-comision" name="porcentaje-comision" required>
+
+            <label for="fecha-ingreso">Fecha de Ingreso:</label>
+            <input type="text" id="fecha-ingreso" name="fecha-ingreso" required>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Agregar Empleado</button>
+        </form>
+    </div>
+</body>
+</html>
+

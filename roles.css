@@ -1,0 +1,37 @@
+/* Estilos adicionales para la gestión de configuración de usuarios y roles */
+#usuarios-roles-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#usuarios-roles-container h3 {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#usuarios-table,
+#roles-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#usuarios-table th,
+#usuarios-table td,
+#roles-table th,
+#roles-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#usuarios-table th,
+#roles-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#usuarios-table tbody tr:nth-child(even),
+#roles-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

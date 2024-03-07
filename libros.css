@@ -1,0 +1,33 @@
+/* Estilos adicionales para la gestión de libros */
+#libros-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#libros-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#libros-form input,
+#libros-form select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#libros-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#libros-form button:hover {
+    background-color: #45a049;
+}

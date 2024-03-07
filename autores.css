@@ -1,0 +1,33 @@
+/* Estilos adicionales para la gestión de autores */
+#autores-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#autores-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#autores-form input,
+#autores-form select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#autores-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#autores-form button:hover {
+    background-color: #45a049;
+}

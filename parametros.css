@@ -1,0 +1,32 @@
+/* Estilos adicionales para la gestión de configuración de parámetros del sistema */
+#parametros-form {
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#parametros-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#parametros-form input,
+#parametros-form textarea {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#parametros-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#parametros-form button:hover {
+    background-color: #45a049;
+}

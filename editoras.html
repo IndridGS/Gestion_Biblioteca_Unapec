@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editotoras.css">
+    <title>Sistema de Biblioteca - Gestión de Editoras</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Gestión de Editoras</h2>
+        <form id="editoras-form">
+            <label for="nombre-editora">Nombre de la Editora:</label>
+            <input type="text" id="nombre-editora" name="nombre-editora" required>
+
+            <label for="descripcion">Descripción:</label>
+            <input type="text" id="descripcion" name="descripcion" required>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Agregar Editora</button>
+        </form>
+    </div>
+</body>
+</html>

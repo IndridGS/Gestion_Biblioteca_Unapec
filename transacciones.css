@@ -1,0 +1,21 @@
+/* Estilos adicionales para la gestión de historial de transacciones */
+#historial-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#historial-table th, #historial-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#historial-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#historial-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

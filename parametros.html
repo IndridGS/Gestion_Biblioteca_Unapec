@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="parametros.css">
+    <title>Sistema de Biblioteca - Configuración de Parámetros del Sistema</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Configuración de Parámetros del Sistema</h2>
+        <form id="parametros-form">
+            <label for="duracion-prestamo">Duración Máxima de Préstamo (días):</label>
+            <input type="number" id="duracion-prestamo" name="duracion-prestamo" required>
+
+            <label for="multa-por-dia">Multa por Día de Retraso:</label>
+            <input type="number" id="multa-por-dia" name="multa-por-dia" required>
+
+            <label for="otros-parametros">Otros Parámetros (opcional):</label>
+            <textarea id="otros-parametros" name="otros-parametros"></textarea>
+
+            <button type="submit">Guardar Cambios</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* Estilos adicionales para la gestión de préstamos y devoluciones */
+#prestamos-devoluciones-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#prestamos-devoluciones-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#prestamos-devoluciones-form input,
+#prestamos-devoluciones-form textarea,
+#prestamos-devoluciones-form select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#prestamos-devoluciones-form textarea {
+    resize: vertical;
+}
+
+#prestamos-devoluciones-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#prestamos-devoluciones-form button:hover {
+    background-color: #45a049;
+}

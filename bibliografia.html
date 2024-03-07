@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bibliografia.css">
+    <title>Sistema de Biblioteca - Gestión de Bibliografía</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Gestión de Bibliografía</h2>
+        <form id="bibliografia-form">
+            <label for="tipo-bibliografia">Tipo de Bibliografía:</label>
+            <select id="tipo-bibliografia" name="tipo-bibliografia" required>
+                <!-- Opciones del tipo de bibliografía -->
+                <option value="libro">Libro</option>
+                <option value="revista">Revista</option>
+                <!-- Agrega más opciones según sea necesario -->
+            </select>
+
+            <label for="descripcion">Descripción:</label>
+            <input type="text" id="descripcion" name="descripcion" required>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Agregar Bibliografía</button>
+        </form>
+    </div>
+</body>
+</html>

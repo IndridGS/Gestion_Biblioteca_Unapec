@@ -1,0 +1,41 @@
+/* Tu CSS existente puede permanecer aquí */
+
+/* Estilos adicionales para la gestión de bibliografía */
+#estado {
+    width: 100%;
+    padding: 8px;
+}
+
+#bibliografia-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#bibliografia-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#bibliografia-form input,
+#bibliografia-form select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#bibliografia-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#bibliografia-form button:hover {
+    background-color: #45a049;
+}
+

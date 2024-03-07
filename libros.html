@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <link rel="stylesheet" href="libros.css">
+    <title>Sistema de Biblioteca - Gestión de Libros</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Gestión de Libros</h2>
+        <form id="libros-form">
+            <label for="descripcion">Descripción:</label>
+            <input type="text" id="descripcion" name="descripcion" required>
+
+            <label for="signatura">Signatura Topográfica:</label>
+            <input type="text" id="signatura" name="signatura" required>
+
+            <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required>
+
+            <label for="tipo-bibliografia">Tipo de Bibliografía:</label>
+            <select id="tipo-bibliografia" name="tipo-bibliografia" required>
+                <option value="libro">Libro</option>
+                <option value="revista">Revista</option>
+                <!-- Agrega más opciones según sea necesario -->
+            </select>
+
+            <label for="autores">Autores:</label>
+            <input type="text" id="autores" name="autores" required>
+
+            <label for="editora">Editora:</label>
+            <input type="text" id="editora" name="editora" required>
+
+            <label for="anio-publicacion">Año de Publicación:</label>
+            <input type="text" id="anio-publicacion" name="anio-publicacion" required>
+
+            <label for="ciencia">Ciencia:</label>
+            <input type="text" id="ciencia" name="ciencia" required>
+
+            <label for="idioma">Idioma:</label>
+            <input type="text" id="idioma" name="idioma" required>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Agregar Libro</button>
+        </form>
+    </div>
+</body>
+</html>

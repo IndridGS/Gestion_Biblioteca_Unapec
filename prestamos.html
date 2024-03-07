@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="prestamos.css">
+    <title>Sistema de Biblioteca - Préstamos y Devoluciones</title>
+</head>
+<body>
+    <header>
+        <h1>Sistema de Biblioteca UNAPEC</h1>
+        <button id="logout-btn">Cerrar Sesión</button>
+    </header>
+
+    <div class="main-container">
+        <h2>Préstamos y Devoluciones</h2>
+        <form id="prestamos-devoluciones-form">
+            <label for="empleado">Empleado:</label>
+            <input type="text" id="empleado" name="empleado" required>
+
+            <label for="libro">Libro:</label>
+            <input type="text" id="libro" name="libro" required>
+
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+
+            <label for="fecha-prestamo">Fecha de Préstamo:</label>
+            <input type="text" id="fecha-prestamo" name="fecha-prestamo" required>
+
+            <label for="fecha-devolucion">Fecha de Devolución:</label>
+            <input type="text" id="fecha-devolucion" name="fecha-devolucion" required>
+
+            <label for="monto-dia">Monto por Día:</label>
+            <input type="text" id="monto-dia" name="monto-dia" required>
+
+            <label for="cantidad-dias">Cantidad de Días:</label>
+            <input type="text" id="cantidad-dias" name="cantidad-dias" required>
+
+            <label for="comentario">Comentario:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado" required>
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+            </select>
+
+            <button type="submit">Registrar Préstamo/Devolución</button>
+        </form>
+    </div>
+</body>
+</html>

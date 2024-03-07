@@ -1,0 +1,33 @@
+/* Estilos adicionales para la gestión de editoras */
+#editoras-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px auto;
+}
+
+#editoras-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#editoras-form input,
+#editoras-form select {
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#editoras-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editoras-form button:hover {
+    background-color: #45a049;
+}
